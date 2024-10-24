@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-model {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.margin {
+    background-color: #F6CC9C;
+    border: 40px solid #F6CC9C;
+    width: 500px;
+}
+
+.border {
+    background-color: #FCDD9A;
+    border: 40px solid #FCDD9A;
+}
+
+.padding {
+    background-color: #C3D08A;
+    border: 40px solid #C3D08A;
+}
+
+.content {
+    background-color: #8CB6C0;
+    border: 30px solid #8CB6C0;
+}
